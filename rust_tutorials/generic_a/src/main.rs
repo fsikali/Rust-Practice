@@ -32,4 +32,14 @@
  } 
 
 
- 
+ /*  
+    Although this code works, duplicating code is tedious and error prone
+    We also have to remember to duplicate the code in multiple places when we want 
+    to change it.  
+
+    To eliminate this duplication, we'll create an abstraction by defining a function that operates 
+    on any list of integers passed in a parameter. 
+    This solution makes our code clearer and lets us express the concept of finding the largest 
+    number in a list abstractly
+
+ */
