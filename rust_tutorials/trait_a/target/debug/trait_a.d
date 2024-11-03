@@ -1,0 +1,1 @@
+/home/fsikali/Desktop/Task/Practice/Rust/rust_pack/rust_tutorials/trait_a/target/debug/trait_a: /home/fsikali/Desktop/Task/Practice/Rust/rust_pack/rust_tutorials/trait_a/src/aggregator.rs /home/fsikali/Desktop/Task/Practice/Rust/rust_pack/rust_tutorials/trait_a/src/main.rs
