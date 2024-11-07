@@ -17,9 +17,7 @@
                          define a set of behaviors necessary to accomplish some purpose.
 */
 
-mod aggregator; 
-
-use aggregator::{Summary, Tweet};  
+use trait_a::{Summary, Tweet, Shape, Rectangle};  
 
 fn main() { 
     let tweet = Tweet { 
@@ -27,7 +25,13 @@ fn main() {
         content: String::from("of course, as you probaly already know people",), 
         reply: false, 
         retweet: false,
-    }; 
+    };  
 
-    println!("1 new tweet: {}", tweet.summarize());
+    let rectangle = Rectangle { 
+        length: 10, 
+        width: 5,
+    };
+
+    println!("1 new tweet: {}", tweet.summarize()); 
+    println!("This is the area: {}", rectangle.square_shape());
 }

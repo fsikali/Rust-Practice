@@ -1,6 +1,10 @@
 pub trait Summary { 
-    fn summarize(&self) -> String;
+    fn summarize(&self) -> String; 
 } 
+
+pub trait Shape {
+    fn square_shape(&self) -> i32;
+}
 
 pub struct NewsArticle { 
     pub headline: String, 
@@ -20,11 +24,23 @@ pub struct Tweet {
     pub content: String, 
     pub reply: bool,
     pub retweet: bool,
-} 
+}  
+
+pub struct Rectangle { 
+    pub length: i32,
+    pub width: i32,
+}
 
 impl Summary for Tweet { 
     fn summarize(&self) -> String { 
         format!("{}: {}", self.username, self.content)
     }
 } 
+ 
+impl Shape for Rectangle { 
+    fn square_shape(&self) -> i32 { 
+       let area: i32 = self.length * self.width;
 
+       area
+    }
+}  
