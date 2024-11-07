@@ -14,9 +14,8 @@
 //                 -- use aggregator::{NewsArticle, Summary}
 //                 -- use crate::aggregator::{self, NewsArticle, Summary} -- not compiling
 
-mod aggregator; 
 
-use crate::aggregator::{NewsArticle, Summary}; 
+use trait_b::{NewsArticle, Summary}; 
 
 fn main() {   
 

@@ -1,6 +1,4 @@
-mod aggregator; 
-
-use aggregator::{Summary, Tweet}; 
+use trait_c::{Summary, Tweet}; 
 
 fn main() { 
     let tweet = Tweet { 
