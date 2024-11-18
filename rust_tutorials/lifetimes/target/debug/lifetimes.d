@@ -1,0 +1,1 @@
+/home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/lifetimes/target/debug/lifetimes: /home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/lifetimes/src/lib.rs /home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/lifetimes/src/main.rs
