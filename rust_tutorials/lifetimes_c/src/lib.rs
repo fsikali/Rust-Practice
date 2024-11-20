@@ -8,6 +8,5 @@
       longest string is abcd
     - We want the function to take slices, which are references, rather than strings, because
       we don't want the longest function to take ownership of its parameters.
-    - 
-   
+
 */
