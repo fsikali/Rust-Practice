@@ -1,7 +1,7 @@
 /*
    Example:
    - The longest function definition specifying that all the references in the signature
-     must have the
+     must have the same lifetime 'a
 
 */ 
 
