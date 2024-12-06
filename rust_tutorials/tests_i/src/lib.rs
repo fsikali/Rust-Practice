@@ -32,5 +32,4 @@ mod tests {
    - We decided we don't want to have to update the test when the requirements change, so instead of checking
      for exact equality to the value returned from greeting function, we'll just assert that the output contains
      the text of the input parameter.
-   
 */
