@@ -1,8 +1,8 @@
 /* 
     Using Result<T, E> in Tests
     - Our tests so far all panic when they fail
-    - We can alsoo write tests that use Result<T, E>!
-    - Here'e the test rewritten to use Result<T, E> and return an Err instead of panicking
+    - We can also write tests that use Result<T, E>!
+    - Here's the test rewritten to use Result<T, E> and return an Err instead of panicking
 */
 
 #[cfg(test)]
