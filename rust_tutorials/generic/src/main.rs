@@ -2,7 +2,7 @@
  *  Generics allow us to replace specific types with a placeholder that represents
  *  multiple types to remove code duplication.
  *  
- *  How to remove duplication in a way that doesn't involve generic multiple values
+ *  --- How to remove duplication in a way that doesn't involve generic multiple values
  *  Apply same technique to extract a generic function 
  *  By looking at how to recognize duplicated code you can extract into a function, 
  *  you'll start to recognize duplicated code that can use generics 

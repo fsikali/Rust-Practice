@@ -12,6 +12,7 @@
 // This function has one parameter named list, which is a slice of values of type T
 // The largest function will return a reference to a value of the same type T
 
+
 fn largest<T>(list: &[T]) -> &T { 
     let mut largest = &list[0];
 
@@ -44,4 +45,5 @@ fn main() {
 // By following the help text's suggestion, we restrict the types valid for T to only 
 // those that implement PartialOrd and this example will compile, because the standard
 // library implements PartialOrd on both i32 and char.
+
 

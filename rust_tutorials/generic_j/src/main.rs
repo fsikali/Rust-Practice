@@ -6,7 +6,7 @@
     We could, for example, implement methods only on Point<f32> instances rather
     than on Point<T> instances with any generic type.
 
-    Example - An impl block that only applies to a struct with a particular concreta
+    Example - An impl block that only applies to a struct with a particular concrete
               type for the generic type parameter T.
               We use the concrete type f32,meaning we don't declare any types after impl
 */

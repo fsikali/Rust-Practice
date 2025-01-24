@@ -21,3 +21,4 @@ fn main() {
 // If we create an instance of a Point<T> that has values of different types, our
 // code won't compile
 // This error is called a type mismatch error
+

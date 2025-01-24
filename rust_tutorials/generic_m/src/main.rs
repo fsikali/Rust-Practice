@@ -24,7 +24,7 @@ fn main() {
    The generic Option<T> is replaced with the specific definitions created by the compiler
    Because Rust compiles generic code into code that specifies the type in each instance,
    we pay runtime cost for using generics. 
-   When code runs, it performs just as it woulf it we had duplicated each definition by hand.
+   When code runs, it performs just as it would if we had duplicated each definition by hand.
    The process of monomorphization makes Rust's generics extremely efficient at runtime.
  
 */

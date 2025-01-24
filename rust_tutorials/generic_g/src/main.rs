@@ -13,7 +13,7 @@ fn main() {
 } 
 
 /*
-   Optiom<T> enum is generic over type T and has two variants: 
+   Option<T> enum is generic over type T and has two variants: 
    Some, which holds one value of type T, and a None variant that doesn't hold,
    any value.
    
