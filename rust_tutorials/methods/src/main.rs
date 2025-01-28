@@ -1,3 +1,5 @@
+use methods::Rectangle;
+
 fn main() { 
 
     let rect1 = Rectangle { 
