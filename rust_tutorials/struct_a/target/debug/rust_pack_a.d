@@ -1,1 +1,1 @@
-/home/fsikali/Desktop/Task/Practice/Rust/rust_pack/src/struct_a/target/debug/rust_pack_a: /home/fsikali/Desktop/Task/Practice/Rust/rust_pack/src/struct_a/src/main.rs
+/home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/struct_a/target/debug/rust_pack_a: /home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/struct_a/src/lib.rs /home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/struct_a/src/main.rs

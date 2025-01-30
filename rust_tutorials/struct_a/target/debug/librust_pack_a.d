@@ -1,0 +1,1 @@
+/home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/struct_a/target/debug/librust_pack_a.rlib: /home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/struct_a/src/lib.rs

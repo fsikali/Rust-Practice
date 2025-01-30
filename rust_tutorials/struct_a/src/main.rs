@@ -1,9 +1,7 @@
-struct Rectangle { 
-    length: i32, 
-    width: i32,
-} 
+use rust_pack_a::Rectangle;
 
 fn main() { 
+
     let rect = Rectangle { 
         length: 10, 
         width: 5,
@@ -13,3 +11,4 @@ fn main() {
 
     println!("This is the area of the Rectangle: {}", area);
 } 
+
