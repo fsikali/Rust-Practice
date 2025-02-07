@@ -22,7 +22,7 @@ mod tests {
    - The it_adds_two test failed, and the message tells us that the assertion that fails was assertion
      failed: `(left == right)` and what the left and right values are. 
    - Note that in some languages and test frameworks, the parameters to equality assertion functions are called
-     expected and actusl, and the order in which we specify the arguments matters.
+     expected and actaul, and the order in which we specify the arguments matters.
    - However, in Rust, they're called left and right, and the order in which we specify the value we expect and
      the value the code produces doesn't matter.
    - The assert_ne! macro will pass if the two values we give it are not equal and fail if they're equal

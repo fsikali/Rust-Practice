@@ -1,4 +1,4 @@
-/* An integration test of a function in the adder crate */
+/* An integration test of a function in the test_org_b crate */
 
 use test_org_b;  
 

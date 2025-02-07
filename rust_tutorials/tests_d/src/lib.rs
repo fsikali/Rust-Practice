@@ -46,7 +46,7 @@ mod tests {
 /*
    - Because the tests module is an inner module, we need to bring the code under test in the outer
      module into the scope of the inner module. 
-   - We use glob here so anything we define in the outer module is available to thhis tests module
+   - We use glob here so anything we define in the outer module is available to this tests module
    - We've named our test larger_can_hold_smaller, and we've created the two Rectangle instances that we need.
    - Then we called the assert! macro and passed it the result of calling larger.can_hold(&smaller)
    - This expression is supposed to return true, so our test should pass

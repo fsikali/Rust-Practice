@@ -1,5 +1,5 @@
 /*
-    Testign Equality with the assert_eq! and assert_ne! Macros
+    Testing Equality with the assert_eq! and assert_ne! Macros
     - A common way to verify functionality is to test for equality between the result of the code under
       test and the value you expect the code to return.
     - This is done using assert! macro and passing it an expression using the == operator

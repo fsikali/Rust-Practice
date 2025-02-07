@@ -59,5 +59,5 @@ mod tests {
    - We've change the implementation of the can_hold method by replacing the greater-than sign with a less
      than sign when it compares the widths: 
    - Our tests caught the bug! Because larger.width is 8 and smaller.width is 5, the comparison of the widths
-     in can_hold now returns false:8 is not less then 5.
+     in can_hold now returns false:8 is not less than 5.
 */

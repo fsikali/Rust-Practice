@@ -38,11 +38,11 @@ mod tests {
 }
 
 /*
-- The three sections of ouput include the unit tests, the integration test, and the doc tests.
-- Note that if any test in a section fails, the followinf sections will not be run.
-- For example, of a unit test fails, there won't be any output for integration and doc tests 
-  beacuse those testss will only be run if all unit tests are passing.
-- The first section for the unit tests is the same as wwe've been seeing: one line for each unit
+- The three sections of output include the unit tests, the integration test, and the doc tests.
+- Note that if any test in a section fails, the following sections will not be run.
+- For example, if a unit test fails, there won't be any output for integration and doc tests 
+  beacuse those tests will only be run if all unit tests are passing.
+- The first section for the unit tests is the same as we've been seeing: one line for each unit
   test (one names internal that we added) and then a summary line for the unit tests.
 - The integration tests section starts with the line Running tests/integration_test.rs.
 - Next there is a line for each test function in that integration test and summary line for the 
@@ -73,7 +73,7 @@ mod tests {
 - When we run the tests again, we'll see a new section in the test output for the common.rs file,
   even though this file doesn't contain any test functions nor did we call the setup function
   from anywhere:
-- Having common appear in the test resilts with running 0 tests displayed for it is not what we
+- Having common appear in the test results with running 0 tests displayed for it is not what we
   wanted.
 - We just wanted to share some code with the other integration test files.
 - To avoid having common appear in the test output, instead of creating tests/common.rs,

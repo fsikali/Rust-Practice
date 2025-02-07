@@ -12,7 +12,7 @@ mod tests {
         if 2 + 2 == 4 { 
             Ok(())
         } else { 
-            Err(String::from("two plus two does not equal four"));
+            Err(String::from("two plus two does not equal four"))
         }
     }
 } 
