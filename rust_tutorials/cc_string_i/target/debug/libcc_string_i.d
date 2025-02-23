@@ -1,0 +1,1 @@
+/home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/cc_string_i/target/debug/libcc_string_i.rlib: /home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/cc_string_i/src/lib.rs
