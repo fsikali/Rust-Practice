@@ -1,0 +1,1 @@
+/home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/iterators_closures_d/target/debug/libiteratoes_closures_d.rlib: /home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/iterators_closures_d/src/lib.rs
