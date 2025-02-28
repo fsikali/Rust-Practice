@@ -1,4 +1,8 @@
-// Using Closures that Capture Their Environment
+/* 
+--- Using Closures that Capture Their Environment
+*/ 
+
+// Example: Using the filter method woth a closure that captures shoe_size
 
 #[derive(PartialEq, Debug)]
 struct Shoe {
