@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"cargo_crates_b":[["impl Freeze for <a class=\"enum\" href=\"cargo_crates_b/kinds/enum.PrimaryColor.html\" title=\"enum cargo_crates_b::kinds::PrimaryColor\">PrimaryColor</a>",1,["cargo_crates_b::kinds::PrimaryColor"]],["impl Freeze for <a class=\"enum\" href=\"cargo_crates_b/kinds/enum.SecondaryColor.html\" title=\"enum cargo_crates_b::kinds::SecondaryColor\">SecondaryColor</a>",1,["cargo_crates_b::kinds::SecondaryColor"]]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
