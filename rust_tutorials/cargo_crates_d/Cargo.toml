@@ -1,6 +1,7 @@
 workspace.resolver = "2"
-workspace.members = ["adder"]
+workspace.members = [ "add_one","adder"]
 
 members = [
     "adder",
+    "add_one",
 ]
