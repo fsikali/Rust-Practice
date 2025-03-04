@@ -1,0 +1,1 @@
+/home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/smart_pointers_d/target/debug/smart_pointers_d: /home/fsikali/Desktop/Task/Practice/Rust/Tutorials/rust_pack/rust_tutorials/smart_pointers_d/src/main.rs
