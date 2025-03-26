@@ -6,3 +6,13 @@
 fn main() { 
     let(x, y, z) = (1, 2, 3);
 }
+
+/*
+--- Incorrectly constructing a pattern whose variables don't match the number of elements in the tuple
+- Attempting to compile this code results into an error
+
+fn main() { 
+   let (x, y, z) = (1, 2, 3);
+}
+
+*/
