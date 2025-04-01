@@ -31,6 +31,6 @@ impl Human {
 fn main() {
     let person = Human;
     Pilot::fly(&person);
-    Wizard::fly(&person);
+    Teacher::fly(&person);
     person.fly();
 }
