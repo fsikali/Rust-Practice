@@ -1,10 +1,10 @@
-// Calling fly on an instance of Human 
+// Specifying which trait's fly method we want to call 
 
 trait Pilot {
     fn fly(&self);
 }
 
-trait Wizard {
+trait Teacher {
     fn fly(&self);
 }
 
@@ -30,6 +30,7 @@ impl Human {
 
 fn main() {
     let person = Human;
+    Pilot::fly(&person);
+    Wizard::fly(&person);
     person.fly();
 }
-
